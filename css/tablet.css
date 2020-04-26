@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  #nav-bar a {
+    padding: 2.4rem;
+  }
+
+  .pricing-box {
+    max-height: 375px;
+    margin-left: 1.5rem;
+  }
+
+   #plan1.pricing-box {
+    margin-left: 0;
+  }
+
+  .pricing-title {
+    font-size: 2.2rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .price-text {
+    font-size: 2rem;
+    margin-top: 6rem;
+  }
+
+  .pricing-description {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+  }
+
+  .site-btn {
+    width: 120px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}

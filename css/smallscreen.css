@@ -1,0 +1,58 @@
+@media screen and (max-width: 650px) {
+  #header{
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1.8rem;
+  }
+
+  #header div:nth-child(1) {
+    margin-bottom: 1.5rem;
+  }
+
+  #header-img {
+    padding: 1rem 0;
+  }
+
+  #nav-bar a {
+    font-size: 1.8rem;
+  }
+  
+  /* hero styles */
+  #hero {
+    height: 65vh;
+  }
+  
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  #hero h2 {
+    font-size: 2rem;
+  }
+
+  /* features styles */
+  #features {
+    flex-direction: column;
+    display: block;
+    /* margin-top: 33rem; */
+    font-size: 1.5;
+    height: 900px;
+  }
+
+  /* pricing plans styles */
+
+  #pricing-plans {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: block;
+    height: 1500px;
+    width: 100%;
+  }
+
+  #footer {
+    /* display: block; */
+  }
+}

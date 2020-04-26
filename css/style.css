@@ -3,6 +3,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -10,12 +17,12 @@
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 3.2rem;
   overflow: hidden;
 }
 
 .l-heading {
-  font-size: 2.7rem;
+  font-size: 4.8rem;
 }
 
 /* NAVBAR STYLING */
@@ -29,7 +36,7 @@ header {
   justify-content: space-between;
   
   max-width: 100%;
-  padding: 1.5rem;
+  padding: 2.4rem;
   overflow: hidden;
 }
 
@@ -41,8 +48,8 @@ header div {
 
 header #title {
   font-weight: bold;
-  font-size: 1.5rem;
-  padding-left: 0.75rem;
+  font-size: 2.4rem;
+  padding-left: 1.2rem;
 }
 
 #nav-bar ul {
@@ -54,8 +61,8 @@ header #title {
 #nav-bar a {
   text-decoration: none;
   color: #E84855;
-  padding: 0 3rem;
-  font-size: 1.5em;
+  padding: 0 4.8rem;
+  font-size: 2.4rem;
 }
 
 #nav-bar a:hover {
@@ -64,7 +71,7 @@ header #title {
 
 /* Landing Page Styling */
 #showcase {
-  height: 100vh;
+  height: 65vh;
   width: 100%;
   color: #fff;
 }
@@ -86,7 +93,7 @@ header #title {
 
 
 #showcase h2 {
-  font-size: 2.2em;
+  font-size: 3.6rem;
   font-weight: normal;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -95,26 +102,26 @@ header #title {
 #showcase #form {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
   align-items: center;
-
 }
 
 #showcase .form-input {
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
   width: 450px;
+  border: none;
 }
 
 #showcase .form-btn {
-  padding: 10px;
+  padding: 1rem;
   width: 200px;
-  border: #d3d3d3;
+  border: solid 2px #d3d3d3;
   text-align: center;
   background-color: #E84855;
   color: #f1f1f1;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1.8rem;
+  border-radius: 20px;
 }
 
 #showcase .form-btn:hover {
@@ -124,14 +131,88 @@ header #title {
 
 /* What We Offer Styles */
 #what {
-  height: 450px;
+  height: 45vh;
+  width: 90%;
+  margin: auto;
   display: flex;
-  /* justify-content: center; */
+  text-align: center;
   align-items: center;
-  /* text-align: center; */
-  /* padding: 10px; */
+  justify-content: center;
+  font-size: 1.8rem;
 }
 
 .what-item {
   flex: 1;
+  padding: 0 2rem;
+}
+
+.what-item i {
+  margin-bottom: 3rem;
+  color: #E84855;
+}
+
+.what-title {
+  margin-bottom: 10px;
+}
+
+/* Stlying the Video Section */
+.video-container {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing-plans {
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pricing-plans .pricing-box {
+  width: 300px;
+  height: 450px;
+  border: 3px solid #E84855;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    /* padding: 0 2rem; */
+}
+
+footer {
+  background: #E84855;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.4rem;
+  color: #f6f6f6;
+  padding: 1rem;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #f6f6f6;
+  padding: 0 2rem;
+}
+
+footer .copyright-text {
+  font-size: 1.7rem;
+  color: #e0e0e0;
 }

@@ -1,4 +1,4 @@
-# Responsive Web Design Projects - Building a Product Landing Page with freecodecamp
+# Responsive Web Design Projects - Building a Product Landing Page with freeCodeCamp
 
 ### Project inspiration from freeCodeCamp. Developed by Chris Mendez.
 

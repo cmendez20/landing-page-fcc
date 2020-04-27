@@ -9,19 +9,19 @@
   <script src="https://kit.fontawesome.com/dcb68dae8b.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/smallscreen.css" media="screen and (max-width: 650px)">
   <link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 768px)">
+  <link rel="stylesheet" href="./css/smallscreen.css" media="screen and (max-width: 650px)">
 </head>
 <body>
   <header id="header">
     <div>
-      <i id="header-img" class="fas fa-music fa-2x"></i><span id="title">OTAKU BEATS</span>
+      <img id="header-img" src="./img/music-note.png" alt="music icon"><span id="title">OTAKU BEATS</span>
     </div>
     <nav id="nav-bar">
       <ul>
-        <li class="nav-link"><a href="#hero">Home</a></li>
-        <li class="nav-link"><a href="#features">Features</a></li>
-        <li class="nav-link"><a href="#pricing-plans">Pricing</a></li>
+        <li><a class="nav-link" href="#hero">Home</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#pricing-plans">Pricing</a></li>
       </ul>
     </nav>
   </header>
@@ -34,9 +34,9 @@
       <h2>
         Join Our Newsletter
       </h2>
-      <form id="form">
-        <input class="form-input" id="email" type="email" placeholder="Enter Your Email">
-        <input class="form-btn" id="submit" type="submit" value="Get Started">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" class="form-input" id="email" type="email" placeholder="Enter your email">
+        <input class="form-btn" type="submit" id="submit" value="Get Started">
       </form>
     </div>
   </section>
@@ -109,5 +109,6 @@
     <p class="copyright-text">Copyright 2020, Otaku Beats</p>
   </footer>
 
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

@@ -40,6 +40,10 @@ header {
   overflow: hidden;
 }
 
+#header #header-img {
+  height: 35px;
+}
+
 header div {
   display: flex;
   align-items: center;
@@ -266,4 +270,22 @@ header #title {
 #footer .copyright-text {
   font-size: 1.7rem;
   color: #e0e0e0;
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  #features {
+    max-height: 545px;
+  }
+  
+  #pricing-plans {
+    max-height: 750px;
+  }
+  
+  #pricing-plans .pricing-title {
+    font-size: 2.2rem;
+  }
+
+  #pricing-plans .site-btn {
+    width: 150px;
+  }
 }

@@ -90,7 +90,7 @@ header #title {
 
 
   /* Overlay */
-  background: rgba(0,0,0,0.4) url('../img/landing-page-img.jpg')
+  background: rgba(0,0,0,0.4) url('../img/landing-page-img-optimized.jpg')
   no-repeat center center/cover;
   background-blend-mode: color;
 }
